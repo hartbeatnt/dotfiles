@@ -25,5 +25,5 @@ ga=git add $*
 gc=git commit -m $*
 gs=git status
 gac=git add . && git commit -m $*
-gp=git push $1 $*
+gp=git push $1 $2
 gpo=git push origin $*
