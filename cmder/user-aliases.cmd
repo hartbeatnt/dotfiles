@@ -7,13 +7,21 @@
 e.=explorer .
 gl=git log --oneline --all --graph --decorate  $*
 ls=ls --show-control-chars -F --color $*
-pwd=cd
+pwd=cd --show-control-chars -F --color $*
 clear=cls
 history=cat "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
 vi=vim $*
-cmderr=cd /d "%CMDER_ROOT%"
-~=cd %HOMEPATH%
-work=cd C:\Users\HartB\Documents\superdeluxe
-workh=cd C:\Users\HartB\Documents\superdeluxe\home
-workt=cd C:\Users\HartB\Documents\superdeluxe\trivia-server
+cd=cd $* && ls --show-control-chars -F --color 
+
+cmderr=cd /d "%CMDER_ROOT%" && ls --show-control-chars -F --color $*
+~=cd %HOMEPATH% && ls --show-control-chars -F --color 
+work=cd C:\Users\HartB\Documents\superdeluxe && ls --show-control-chars -F --colors
+workh=cd C:\Users\HartB\Documents\superdeluxe\home && ls --show-control-chars -F --color 
+workt=cd C:\Users\HartB\Documents\superdeluxe\trivia-server && ls --show-control-chars -F --color 
+
+ga.=git add .
+ga=git add $*
+gc=git commit -m $*
+gs=git status
+gac=git add . && git commit -m $*
