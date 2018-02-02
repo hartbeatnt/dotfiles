@@ -1,0 +1,15 @@
+================
+vim plugins:
+--
+git clone https://github.com/w0rp/ale.git
+git clone https://github.com/jiangmiao/auto-pairs.git
+git clone https://github.com/scrooloose/nerdtree.git
+git clone https://github.com/tpope/vim-commentary.git
+git clone https://github.com/pangloss/vim-javascript.git
+git clone https://github.com/mxw/vim-jsx.git
+git clone https://github.com/tpope/vim-repeat.git
+git clone https://github.com/tpope/vim-surround.git
+
+================
+cmder:
+http://cmder.net/
