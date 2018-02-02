@@ -14,4 +14,6 @@ unalias=alias /d $1
 vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
 ~=cd %HOMEPATH%
-home=cd C:\Users\HartB\Documents\superdeluxe
+work=cd C:\Users\HartB\Documents\superdeluxe
+workh=cd C:\Users\HartB\Documents\superdeluxe\home
+workt=cd C:\Users\HartB\Documents\superdeluxe\trivia-server
