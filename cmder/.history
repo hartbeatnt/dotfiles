@@ -1,0 +1,58 @@
+E\
+E:
+cd ../../../..
+git clone https://github.com/hartbeatnt/dotfiles.git
+ls
+npm install eslint
+npm install eslint -g
+;E
+e:
+cd ../..
+mklink /d E:\Program Files\cmder\config E:\dotfiles\cmder
+mklink /D E:/Program Files/cmder/config E:/dotfiles/cmder
+mklink /D E:\Program Files\cmder\config E:\dotfiles\cmder
+work
+cd ../..
+mklink /d E:\Program Files\cmder\config E:\dotfiles\cmder
+mklink /D E:/Program Files/cmder/config E:/dotfiles/cmder
+mklink /D E:\Program Files\cmder\config E:\dotfiles\cmder
+~
+e
+e:
+work
+cd cmd
+cd cmder\
+cd config
+ls
+cd ../../..
+cd dotfiles\
+git status
+git pull -f origin develop
+git pull -f origin master
+cd cmder
+vi user-aliases
+vi user-aliases.cmd 
+git reset --har
+git reset --hard
+git revert
+git revert
+e:
+work
+~
+gs
+gs
+e:
+ls
+c:
+~
+e:
+e~
+e~
+e:
+mklink "C:/Users/user/.vimrc" "E:/dotfiles/vim/vimrc"
+~
+mklink \d .vim E:/dotfiles/vim
+mklink /D .vim E:/dotfiles/vim
+mklink .vimrc E:/dotfiles/vim/vimrc
+mklink "C:/Users/user/.vimrc" "E:/dotfiles/vim/vimrc"
+vi
