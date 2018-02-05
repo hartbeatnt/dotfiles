@@ -9,6 +9,9 @@ git clone https://github.com/pangloss/vim-javascript.git
 git clone https://github.com/mxw/vim-jsx.git
 git clone https://github.com/tpope/vim-repeat.git
 git clone https://github.com/tpope/vim-surround.git
+git clone https://github.com/othree/yajs.vim.git
+git clone https://github.com/othree/es.next.syntax.vim.git
+git clone https://github.com/Valloric/YouCompleteMe.git
 
 ================
 cmder:
