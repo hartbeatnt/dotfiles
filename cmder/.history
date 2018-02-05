@@ -295,3 +295,89 @@ git commit -m "pulling in changes"
 cd ..
 git status
 git add .
+mklink /D C:\Users\HartB\AppData\Local\nvim C:\Users\HartB\.dotfiles\nvim
+nvim
+nvim vimrc
+vim vimrc
+vim 
+vi .eslintrc
+vim .eslintrc.json 
+workh
+~
+cd .dot
+cd .dotfiles\
+cd vim && vi vimrc
+cd vim
+cd cmder
+user-aliases.cmd 
+vim user-aliases.cmd 
+vi user-aliases.cmd
+workh
+nvim
+e.
+cd ..\appdata\Local\cmder\
+mklink /D C:\Users\HartB\AppData\Local\cmder\config C:\Users\HartB\.dotfiles\cmder
+cd .dotfiles\
+git clone https://github.com/othree/yajs.vim.git
+git clone https://github.com/othree/es.next.syntax.vim.git
+vi vimrc
+npm install --save babel-eslint
+vi .eslintrc.json 
+git clone https://github.com/Valloric/YouCompleteMe.git
+cd ..
+vi _REGISTRY
+vi _REGISTRY.txt
+cd vim/plugins
+cd YouCompleteMe\
+install.py --clang-completer --js-completer
+cd ../../..
+ls
+vi .gitignore
+git reset
+git status
+git commit -m "pulling in changes from desktop"
+code .
+git add .
+git commit -m "merge"
+git pull origin master
+git push origin master
+vim --version
+vim --version | grep python
+python
+python --version
+vi
+mklink /D C:\Users\HartB\AppData\Local\cmder\config C:\Users\HartB\.dotfiles\cmder
+vi
+cd .dotfiles\
+gs
+rm -r nvim
+ls
+vi vim/vimrc
+touch plug.vim
+touch plug.vim
+ls
+vi vim/vimrc
+cd .dotfiles\
+vi
+e.
+ls
+vi vim/vimrc
+e.
+cd .dotfiles\
+vi
+cd vim\plugins\YouCompleteMe\
+python install.py
+cmake --version
+cmake --version
+cd ../../
+cd Users\HartB\.dotfiles\
+cd vim\autoload\
+cd ..
+cd plugins\YouCompleteMe\
+install.py --clang-completer --js-completer
+cd .dotfiles\vim\plugins\YouCompleteMe
+install.py --clang-completer --js-completer
+cd .dotfiles\vim\plugins\YouCompleteMe
+install.py --clang-completer --js-completer
+cd .dotfiles\vim\plugins\YouCompleteMe
+install.py --clang-completer --js-completer
