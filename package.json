@@ -16,5 +16,8 @@
     "url": "https://github.com/hartbeatnt/dotfiles/issues"
   },
   "homepage": "https://github.com/hartbeatnt/dotfiles#readme",
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "babel-eslint": "^8.2.1"
+  }
 }
