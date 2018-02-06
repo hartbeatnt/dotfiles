@@ -56,3 +56,57 @@ mklink /D .vim E:/dotfiles/vim
 mklink .vimrc E:/dotfiles/vim/vimrc
 mklink "C:/Users/user/.vimrc" "E:/dotfiles/vim/vimrc"
 vi
+e:
+~
+e:
+e~
+e~
+mklink "C:/Users/user/.vimrc" "E:/dotfiles/vim/vimrc"
+~
+mklink \d .vim E:/dotfiles/vim
+mklink /D .vim E:/dotfiles/vim
+mklink .vimrc E:/dotfiles/vim/vimrc
+mklink "C:/Users/user/.vimrc" "E:/dotfiles/vim/vimrc"
+cd Ethereum\
+ls
+cd intel
+c:
+e:
+cd dot
+cd dotfiles\
+cd voim
+cd vim
+mkdir plugins
+e.
+cd plugins\
+git clone https://github.com/w0rp/ale.git
+git clone https://github.com/jiangmiao/auto-pairs.git
+git clone https://github.com/scrooloose/nerdtree.git
+git clone https://github.com/tpope/vim-commentary.git
+git clone https://github.com/pangloss/vim-javascript.git.
+git clone https://github.com/pangloss/vim-javascript.git
+git clone https://github.com/mxw/vim-jsx.git
+git clone https://github.com/tpope/vim-repeat.git
+git clone https://github.com/tpope/vim-surround.git
+cd ../..
+vi
+git status
+git add.
+ga .
+ga.
+gcm "synced to home pc"
+gs
+git config --global user.name="nate hart"
+git config --global user.email="hartbeatnt@gmail.com"
+git config --global user.email "hartbeatnt@gmail.com"
+git config --global user.name "nate hart"
+gc "synced to home pc"
+gpo master
+gpl
+code
+gpl
+code
+e:
+cd dotfiles/vim
+cls
+vi
