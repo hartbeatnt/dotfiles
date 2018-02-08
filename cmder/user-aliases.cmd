@@ -6,20 +6,20 @@
 ;= Add aliases below here
 e.=explorer .
 gl=git log --oneline --all --graph --decorate  $*
-ls=ls --show-control-chars -F --color $*
-pwd=cd --show-control-chars -F --color $*
+ls=ls -a --show-control-chars -F --color $*
+pwd=cd && ls -a --show-control-chars -F --color $*
 clear=cls
 history=cat "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
 vi=vim $*
-cd=cd $* && ls --show-control-chars -F --color 
+cd=cd $* && ls -a --show-control-chars -F --color 
 
-cmderr=cd /d "%CMDER_ROOT%" && ls --show-control-chars -F --color $*
-~=cd %HOMEPATH% && ls --show-control-chars -F --color 
+cmderr=cd /d "%CMDER_ROOT%" && ls -a --show-control-chars -F --color $*
+~=cd %HOMEPATH% && ls -a --show-control-chars -F --color 
 e:= E: && cd ../../../..
-work=cd %HOMEPATH%\Documents\superdeluxe && ls --show-control-chars -F --colors
-workh=cd %HOMEPATH%\Documents\superdeluxe\home && ls --show-control-chars -F --color 
-workt=cd %HOMEPATH%\Documents\superdeluxe\trivia-server && ls --show-control-chars -F --color 
+work=cd %HOMEPATH%\Documents\superdeluxe && ls -a --show-control-chars -F --colors
+workh=cd %HOMEPATH%\Documents\superdeluxe\home && ls -a --show-control-chars -F --color 
+workt=cd %HOMEPATH%\Documents\superdeluxe\trivia-server && ls -a --show-control-chars -F --color 
 
 ga.=git add .
 ga=git add $*
