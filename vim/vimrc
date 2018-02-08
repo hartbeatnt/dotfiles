@@ -27,6 +27,8 @@ set noswapfile
 set copyindent
 set relativenumber
 set nowrap
+set mouse=a
+
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
