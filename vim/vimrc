@@ -31,6 +31,14 @@ set relativenumber
 set nowrap
 set mouse=a
 
+
+" tabbed browsing
+nnoremap tn :tabnew<Space>
+nnoremap th :tabfirst<Cr>
+nnoremap tj :tabprev<Cr>
+nnoremap tk :tabnext<Cr>
+nnoremap tl :tablast<Cr>
+
 map <c-z> u
 imap <c-z> <ESC> u i
 map <c-s> :w <Enter>
