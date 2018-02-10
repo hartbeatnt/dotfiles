@@ -435,3 +435,19 @@ cd .dotfiles\vim\plugins\YouCompleteMe
 install.py --clang-completer --js-completer
 cd .dotfiles\vim\plugins\YouCompleteMe
 install.py --clang-completer --js-completer
+code
+cd dotfiles/vim
+cls
+vi
+e
+e:
+cd dot
+cd dotfiles\
+git commit -m "pulling down"
+code .
+e.
+git add .
+git pull origin master
+git commit -m "merged"
+git status
+git push origin master

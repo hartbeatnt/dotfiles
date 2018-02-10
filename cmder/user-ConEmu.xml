@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2018-02-05 11:57:53" build="171025">
+		<key name=".Vanilla" modified="2018-02-04 15:15:35" build="171025">
 			<value name="ColorTable00" type="dword" data="00222827"/>
 			<value name="ColorTable01" type="dword" data="009e5401"/>
 			<value name="ColorTable02" type="dword" data="0004aa74"/>
@@ -44,13 +44,13 @@
 			<value name="ExtendFontNormalIdx" type="hex" data="01"/>
 			<value name="ExtendFontBoldIdx" type="hex" data="0c"/>
 			<value name="ExtendFontItalicIdx" type="hex" data="0d"/>
-			<value name="CursorTypeActive" type="dword" data="000232c2"/>
+			<value name="CursorTypeActive" type="dword" data="000232c1"/>
 			<value name="CursorTypeInactive" type="dword" data="00823282"/>
 			<value name="ClipboardDetectLineEnd" type="hex" data="01"/>
 			<value name="ClipboardBashMargin" type="hex" data="00"/>
 			<value name="ClipboardTrimTrailing" type="hex" data="02"/>
 			<value name="ClipboardEOL" type="hex" data="00"/>
-			<value name="ClipboardArrowStart" type="hex" data="01"/>
+			<value name="ClipboardArrowStart" type="hex" data="00"/>
 			<value name="ClipboardAllLines" type="hex" data="01"/>
 			<value name="ClipboardFirstLine" type="hex" data="01"/>
 			<value name="ClipboardClickPromptPosition" type="hex" data="00"/>
@@ -85,7 +85,7 @@
 			<value name="Multi.NumberInCaption" type="hex" data="00"/>
 			<value name="Multi.CloseConfirm" type="hex" data="00"/>
 			<value name="Multi.CloseEditViewConfirm" type="hex" data="00"/>
-			<value name="Multi.NewConfirm" type="hex" data="00"/>
+			<value name="Multi.NewConfirm" type="hex" data="01"/>
 			<value name="Multi.UseArrows" type="hex" data="00"/>
 			<value name="Multi.UseNumbers" type="hex" data="01"/>
 			<value name="Multi.UseWinTab" type="hex" data="00"/>
@@ -124,11 +124,11 @@
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd Width" type="dword" data="000000d0"/>
-			<value name="ConWnd Height" type="dword" data="00000039"/>
+			<value name="ConWnd Width" type="dword" data="00000091"/>
+			<value name="ConWnd Height" type="dword" data="0000003c"/>
 			<value name="Cascaded" type="hex" data="01"/>
-			<value name="ConWnd X" type="long" data="1953"/>
-			<value name="ConWnd Y" type="long" data="0"/>
+			<value name="ConWnd X" type="long" data="94"/>
+			<value name="ConWnd Y" type="long" data="8"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
@@ -138,7 +138,7 @@
 			<value name="HideChildCaption" type="hex" data="01"/>
 			<value name="FocusInChildWindows" type="hex" data="01"/>
 			<value name="HideCaptionAlways" type="hex" data="00"/>
-			<value name="HideCaptionAlwaysFrame" type="hex" data="ff"/>
+			<value name="HideCaptionAlwaysFrame" type="hex" data="00"/>
 			<value name="HideCaptionAlwaysDelay" type="ulong" data="2000"/>
 			<value name="HideCaptionAlwaysDisappear" type="ulong" data="2000"/>
 			<value name="DownShowHiddenMessage" type="hex" data="00"/>
@@ -156,7 +156,7 @@
 			<value name="ComSpec.UncPaths" type="hex" data="01"/>
 			<value name="ComSpec.Path" type="string" data=""/>
 			<value name="ConsoleTextSelection" type="hex" data="01"/>
-			<value name="CTS.AutoCopy" type="hex" data="00"/>
+			<value name="CTS.AutoCopy" type="hex" data="01"/>
 			<value name="CTS.EndOnTyping" type="hex" data="00"/>
 			<value name="CTS.EndOnKeyPress" type="hex" data="00"/>
 			<value name="CTS.Freeze" type="hex" data="00"/>
@@ -255,7 +255,7 @@
 			<value name="TabLazy" type="hex" data="01"/>
 			<value name="TabRecent" type="hex" data="00"/>
 			<value name="TabDblClick" type="ulong" data="1"/>
-			<value name="TabsOnTaskBar" type="hex" data="00"/>
+			<value name="TabsOnTaskBar" type="hex" data="02"/>
 			<value name="TaskBarOverlay" type="hex" data="01"/>
 			<value name="TabCloseMacro" type="string" data=""/>
 			<value name="TabFontFace" type="string" data="Segoe UI"/>
@@ -483,18 +483,9 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-			<key name="Tasks" modified="2018-02-02 15:38:37" build="171025">
+			<key name="Tasks" modified="2018-02-04 14:39:23" build="171025">
 				<value name="Count" type="long" data="8"/>
-				<key name="Task1" modified="2018-02-02 15:38:37" build="171025">
-					<value name="Name" type="string" data="{cmd::Cmder}"/>
-					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
-					<value name="Cmd1" type="string" data="cmd /k &quot;%ConEmuDir%\..\init.bat&quot;  -new_console"/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="Flags" type="dword" data="00000000"/>
-				</key>
-				<key name="Task2" modified="2018-02-02 15:38:37" build="171025">
+				<key name="Task1" modified="2018-02-04 14:39:23" build="171025">
 					<value name="Name" type="string" data="{cmd::Cmder as Admin}"/>
 					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
 					<value name="Cmd1" type="string" data="*cmd /k &quot;%ConEmuDir%\..\init.bat&quot;  -new_console"/>
@@ -503,7 +494,16 @@
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="Flags" type="dword" data="00000000"/>
 				</key>
-				<key name="Task3" modified="2018-02-02 15:38:37" build="171025">
+				<key name="Task2" modified="2018-02-04 14:39:23" build="171025">
+					<value name="Name" type="string" data="{cmd::Cmder}"/>
+					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
+					<value name="Cmd1" type="string" data="cmd /k &quot;%ConEmuDir%\..\init.bat&quot;  -new_console"/>
+					<value name="Active" type="long" data="0"/>
+					<value name="Count" type="long" data="1"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="Flags" type="dword" data="00000000"/>
+				</key>
+				<key name="Task3" modified="2018-02-04 14:39:23" build="171025">
 					<value name="Name" type="string" data="{Powershell::PowerShell as Admin}"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
@@ -512,7 +512,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Flags" type="dword" data="00000000"/>
 				</key>
-				<key name="Task4" modified="2018-02-02 15:38:37" build="171025">
+				<key name="Task4" modified="2018-02-04 14:39:23" build="171025">
 					<value name="Name" type="string" data="{Powershell::Powershell}"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\cmder.ico&quot;"/>
@@ -522,7 +522,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Flags" type="dword" data="00000000"/>
 				</key>
-				<key name="Task5" modified="2018-02-02 15:38:37" build="171025">
+				<key name="Task5" modified="2018-02-04 14:39:23" build="171025">
 					<value name="Name" type="string" data="{bash::mintty as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -531,7 +531,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task6" modified="2018-02-02 15:38:37" build="171025">
+				<key name="Task6" modified="2018-02-04 14:39:23" build="171025">
 					<value name="Name" type="string" data="{bash::mintty}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -541,7 +541,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd2" type="string" data="%CMDER_ROOT%vendor\git-for-windows\usr\bin\mintty.exe /bin/bash -l -new_console"/>
 				</key>
-				<key name="Task7" modified="2018-02-02 15:38:37" build="171025">
+				<key name="Task7" modified="2018-02-04 14:39:23" build="171025">
 					<value name="Name" type="string" data="{bash::bash as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -550,7 +550,7 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data="*cmd /c &quot;%ConEmuDir%\..\git-for-windows\bin\bash&quot; --login -i -new_console"/>
 				</key>
-				<key name="Task8" modified="2018-02-02 15:38:37" build="171025">
+				<key name="Task8" modified="2018-02-04 14:39:23" build="171025">
 					<value name="Name" type="string" data="{bash::bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -561,11 +561,11 @@
 				</key>
 			</key>
 
-			<key name="Apps" modified="2018-02-02 15:38:37" build="171025">
+			<key name="Apps" modified="2018-02-04 14:39:23" build="171025">
 				<value name="Count" type="long" data="0"/>
 			</key>
-			<key name="Colors" modified="2018-02-02 15:38:37" build="171025">
-				<key name="Palette1" modified="2018-02-02 15:38:37" build="171025">
+			<key name="Colors" modified="2018-02-04 14:39:23" build="171025">
+				<key name="Palette1" modified="2018-02-04 14:39:23" build="171025">
 					<value name="Name" type="string" data="Monokai"/>
 					<value name="ExtendColors" type="hex" data="00"/>
 					<value name="ExtendColorIdx" type="hex" data="0e"/>
@@ -610,7 +610,7 @@
 			</key>
 			<value name="OneTabPerGroup" type="hex" data="00"/>
 			<value name="ActivateSplitMouseOver" type="hex" data="01"/>
-			<value name="TabBtnDblClick" type="ulong" data="4"/>
+			<value name="TabBtnDblClick" type="ulong" data="0"/>
 			<value name="ConsoleExceptionHandler" type="hex" data="00"/>
 			<value name="SaveCmdHistory" type="hex" data="00"/>
 			<value name="CTS.IBeam" type="hex" data="01"/>
@@ -644,7 +644,7 @@
 			<value name="DefaultTerminalNewWindow" type="hex" data="00"/>
 			<value name="AnsiLog" type="hex" data="00"/>
 			<value name="AnsiLogPath" type="string" data="%ConEmuDir%\Logs\"/>
-			<value name="Multi.DupConfirm" type="hex" data="00"/>
+			<value name="Multi.DupConfirm" type="hex" data="01"/>
 			<value name="Multi.DetachConfirm" type="hex" data="01"/>
 			<value name="CTS.Intelligent" type="hex" data="01"/>
 			<value name="CTS.IntelligentExceptions" type="string" data="far|vim.exe"/>
@@ -666,7 +666,7 @@
 			<value name="StatusBar.Hide.Dpi" type="hex" data="01"/>
 			<value name="TabFlashChanged" type="long" data="8"/>
 			<value name="TabModifiedSuffix" type="string" data="[*]"/>
-			<key name="HotKeys" modified="2018-02-02 15:38:37" build="171025">
+			<key name="HotKeys" modified="2018-02-04 14:39:23" build="171025">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="00000011"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
@@ -689,10 +689,10 @@
 				<value name="Multi.NewSplitV" type="dword" data="12115b28"/>
 				<value name="Multi.NewSplitH" type="dword" data="12115b27"/>
 				<value name="Multi.SplitMaximize" type="dword" data="00005d0d"/>
-				<value name="Multi.SplitSizeVU" type="dword" data="00121126"/>
-				<value name="Multi.SplitSizeVD" type="dword" data="00121128"/>
-				<value name="Multi.SplitSizeHL" type="dword" data="00121125"/>
-				<value name="Multi.SplitSizeHR" type="dword" data="00121127"/>
+				<value name="Multi.SplitSizeVU" type="dword" data="00101126"/>
+				<value name="Multi.SplitSizeVD" type="dword" data="00101128"/>
+				<value name="Multi.SplitSizeHL" type="dword" data="00101125"/>
+				<value name="Multi.SplitSizeHR" type="dword" data="00101127"/>
 				<value name="Key.TabPane1" type="dword" data="00000000"/>
 				<value name="Key.TabPane2" type="dword" data="00000000"/>
 				<value name="Multi.SplitFocusU" type="dword" data="00001126"/>
@@ -753,7 +753,7 @@
 				<value name="Key.TileToRight" type="dword" data="00000000"/>
 				<value name="Key.JumpPrevMonitor" type="dword" data="00000000"/>
 				<value name="Key.JumpNextMonitor" type="dword" data="00000000"/>
-				<value name="Key.FullScreen" type="dword" data="00101146"/>
+				<value name="Key.FullScreen" type="dword" data="0000120d"/>
 				<value name="Key.SysMenu" type="dword" data="00000000"/>
 				<value name="Key.SysMenu2" type="dword" data="00001102"/>
 				<value name="Key.BufUp" type="dword" data="00000000"/>
@@ -768,7 +768,7 @@
 				<value name="FontLargerKey" type="dword" data="00000000"/>
 				<value name="FontSmallerKey" type="dword" data="00000000"/>
 				<value name="FontOriginalKey" type="dword" data="00001104"/>
-				<value name="PasteFileKey" type="dword" data="10121146"/>
+				<value name="PasteFileKey" type="dword" data="00101146"/>
 				<value name="PastePathKey" type="dword" data="00101144"/>
 				<value name="PasteCygwinKey" type="dword" data="00005d2d"/>
 				<value name="KeyMacro01" type="dword" data="00a01231"/>
@@ -847,11 +847,11 @@
 				<value name="Key.DebugProcess" type="dword" data="00105b44"/>
 				<value name="Key.DumpProcess" type="dword" data="00000000"/>
 				<value name="Key.DumpTree" type="dword" data="00000000"/>
-				<value name="Multi.SplitSwap" type="dword" data="00125d58"/>
-				<value name="Multi.SplitSwapU" type="dword" data="00101126"/>
-				<value name="Multi.SplitSwapD" type="dword" data="00101128"/>
-				<value name="Multi.SplitSwapL" type="dword" data="00101125"/>
-				<value name="Multi.SplitSwapR" type="dword" data="00101127"/>
+				<value name="Multi.SplitSwap" type="dword" data="00000000"/>
+				<value name="Multi.SplitSwapU" type="dword" data="00125b26"/>
+				<value name="Multi.SplitSwapD" type="dword" data="00125b28"/>
+				<value name="Multi.SplitSwapL" type="dword" data="00125b25"/>
+				<value name="Multi.SplitSwapR" type="dword" data="00125b27"/>
 				<value name="Multi.GroupInputAll" type="dword" data="00105d47"/>
 				<value name="Multi.GroupInputKey" type="dword" data="00125d47"/>
 				<value name="Key.AltNumpad" type="dword" data="00000000"/>
@@ -862,7 +862,7 @@
 			</key>
 			<value name="StartCreateDelay" type="ulong" data="100"/>
 			<value name="DefaultTerminalDebugLog" type="hex" data="00"/>
-			<value name="LastMonitor" type="string" data="1920,0,3840,1040"/>
+			<value name="LastMonitor" type="string" data="0,0,2560,1040"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
 			<value name="DownShowExOnTopMessage" type="hex" data="00"/>
 			<value name="EnvironmentSet" type="multi">
