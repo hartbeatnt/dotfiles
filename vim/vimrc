@@ -21,18 +21,26 @@ Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
 " general editor preferences
+set backspace=2
 set tabstop=2
 set shiftwidth=2
+set expandtab
 set noswapfile
 set copyindent
 set relativenumber
 set nowrap
 set mouse=a
 
+map <c-z> u
+imap <c-z> <ESC> u i
+map <c-s> :w <Enter>
+imap <c-s> <ESC> :w <Enter> i
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen = 1
+let NERDTreeShowHidden = 1
+let NERDTreeHijackNetrw = 1
 autocmd StdinReadPre * let s:std_in=1 
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
