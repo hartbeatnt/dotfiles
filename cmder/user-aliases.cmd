@@ -17,7 +17,7 @@ cd=cd $* && ls -a --show-control-chars -F --color
 cmderr=cd /d "%CMDER_ROOT%" && ls -a --show-control-chars -F --color $*
 ~=cd %HOMEPATH% && ls -a --show-control-chars -F --color 
 e:= E: && cd ../../../..
-work=cd %HOMEPATH%\Documents\superdeluxe && ls -a --show-control-chars -F --colors
+work=cd %HOMEPATH%\Documents\superdeluxe && ls -a --show-control-chars -F --color
 workh=cd %HOMEPATH%\Documents\superdeluxe\home && ls -a --show-control-chars -F --color 
 workt=cd %HOMEPATH%\Documents\superdeluxe\trivia-server && ls -a --show-control-chars -F --color 
 
