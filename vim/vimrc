@@ -18,6 +18,7 @@ Plug 'leshill/vim-json'
 Plug 'othree/yajs.vim'
 Plug 'othree/es.next.syntax.vim'
 Plug 'Valloric/YouCompleteMe'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " general editor preferences
@@ -31,6 +32,8 @@ set relativenumber
 set nowrap
 set mouse=a
 
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
 
 " tabbed browsing
 nnoremap tn :tabnew<Space>
@@ -39,10 +42,15 @@ nnoremap tj :tabprev<Cr>
 nnoremap tk :tabnext<Cr>
 nnoremap tl :tablast<Cr>
 
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
 map <c-z> u
 imap <c-z> <ESC> u i
 map <c-s> :w <Enter>
-imap <c-s> <ESC> :w <Enter> i
+imap <c-s> <ESC> :w <Enter> 
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
