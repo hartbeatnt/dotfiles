@@ -31,6 +31,7 @@ set copyindent
 set relativenumber
 set nowrap
 set mouse=a
+set wildmode=longest:full
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
