@@ -1,5 +1,5 @@
 {
-  "slack_token": "xoxp-7691091137-192746048867-319442817989-2394551ae4677ea07f4c9c31318a76e4",
+  "slack_token": "",
 
   // OPTIONAL: set the width of the sidebar (between 1 and 11), default is 1
   "sidebar_width": 3,
