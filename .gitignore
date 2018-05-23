@@ -13,3 +13,4 @@ Code/machineid
 Code/storage.json
 Code/Backups/workspaces.json
 Code/User/workspaceStorage
+.env
